@@ -132,16 +132,16 @@ body {
   margin-top:100px;
   margin-bottom:100px;
   .aboutmewrapper {
-     img {
 
-    }
     p {
       font-size: 19px;;
       color:rgba(145, 145, 145, 1);
       line-height: 30px;
+      display:none;
     }
     h1 {
         color:rgba(255, 255, 255, 0.30);
+        display:none;
     }
      height:200px;
   }
@@ -150,7 +150,12 @@ body {
 .experience {
 
   margin-top: 200px;
-
+.education {
+  display:none;
+}
+.work {
+  display:none;
+}
 
   .charcoal {
     background-color:rgba(0, 0, 0, 0.90);
@@ -176,7 +181,7 @@ body {
 
 .workingskills {
   background-color:rgba(0, 0, 0, 0.81);
-  margin-top:100px;
+  margin-top:70px;
     margin-bottom:100px;
   padding:20px;
   padding-bottom:50px;
@@ -322,8 +327,17 @@ body {
   background-color: black;
   width:100%;
   margin-top: 150px;
-  h1,h3 {
-    text-align:center;
+  h3  {
+
+  }
+  a {
+    text-align: center;
+      text-decoration:none;
+  }
+
+  h1 {
+    font-size:17px;
+      text-align:right;
   }
 
 }

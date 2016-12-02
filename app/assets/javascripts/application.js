@@ -30,13 +30,15 @@ $('.triangle2').fadeOut(100);
 $('.triangle2').fadeIn(1000);
 
   $triggered_times = 0;
+  $triggered_educate = 0;
 
 
 
     $(window).on('scroll', function() {
         var y_scroll_pos = window.pageYOffset;
         var scroll_pos_test = 1360;             // set to whatever you want it to be
-        var scroll_pos_triangle = 300;
+        var scroll_pos_wrapper = 300;
+        var scroll_pos_experience = 1000;
         if(y_scroll_pos > scroll_pos_test && $triggered_times == 0 ) {
           $('#one').fadeIn(100);
           $('#one').fadeOut(100);
@@ -65,8 +67,15 @@ $('.triangle2').fadeIn(1000);
           $('#nine').fadeIn(1000);
           $triggered_times = 1
         }
-        if(y_scroll_pos > scroll_pos_triangle) {
-          $('#triangle').fadeIn(100);
+        if(y_scroll_pos > scroll_pos_wrapper) {
+          $('.aboutmewrapper h1').fadeIn(1800);
+          $('.aboutmewrapper p').fadeIn(3600);
+        }
+
+        if(y_scroll_pos > scroll_pos_experience &&   $triggered_educate == 0 ) {
+
+          $('.education').fadeIn(2000);
+          $('.work').fadeIn(3000);
         }
 
     });

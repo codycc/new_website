@@ -19,6 +19,15 @@ h1,h2,h3,h4,h5,h6,p,a {
   padding: 0px;
   margin: 0px;
 }
+// html,body
+// {
+//     width: 100%;
+//     height: 100%;
+//     margin: 0px;
+//     padding: 0px;
+//     overflow-x: hidden;
+// }
+
 body {
 
     background:linear-gradient(
@@ -328,17 +337,59 @@ body {
   background-color: black;
   width:100%;
   margin-top: 150px;
+  text-align: center;
   h3  {
 
   }
   a {
-    text-align: center;
+
       text-decoration:none;
   }
 
   h1 {
     font-size:17px;
-      text-align:right;
+
+  }
+
+}
+
+@media screen and (max-width: 800px) {
+  .supporting {
+    margin-bottom:200px;
+
+  }
+  .projects {
+    margin-bottom: 0px;
+    margin-top:0px;
+  }
+  .workingskills {
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .foot {
+    margin-top: 10px;
+  }
+  .main-jumbo .wrapper h1 {
+
+      font-size:40px;
+  }
+  .foot a, h3, h5 {
+    font-size:15px;
+  }
+
+  #five {
+    font-size:25px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .supporting {
+    margin-bottom:350px;
+    margin-top: 25px;
+    
+  }
+  .experience {
+    margin-top: 50px;
   }
 
 }

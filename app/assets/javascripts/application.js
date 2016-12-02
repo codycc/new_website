@@ -68,14 +68,14 @@ $('.triangle2').fadeIn(1000);
           $triggered_times = 1
         }
         if(y_scroll_pos > scroll_pos_wrapper) {
-          $('.aboutmewrapper h1').fadeIn(1800);
-          $('.aboutmewrapper p').fadeIn(3600);
+          $('.aboutmewrapper h1').fadeIn(1000);
+          $('.aboutmewrapper p').fadeIn(2000);
         }
 
         if(y_scroll_pos > scroll_pos_experience &&   $triggered_educate == 0 ) {
 
-          $('.education').fadeIn(2000);
-          $('.work').fadeIn(3000);
+          $('.education').fadeIn(1000);
+          $('.work').fadeIn(2000);
         }
 
     });

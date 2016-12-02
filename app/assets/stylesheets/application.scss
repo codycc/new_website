@@ -1,0 +1,329 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+h1,h2,h3,h4,h5,h6,p,a {
+  font-family: avenir;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+
+    background:linear-gradient(
+        rgba(0,0,0,0.8),
+        rgba(0,0,0,0.8)
+        ),image-url("tokyowall.jpg")no-repeat center center fixed;
+  background-size: cover;
+
+}
+.main-jumbo {
+  height: 100vh;
+  padding-top: 20%;
+
+
+    .wrapper {
+      text-align: center;
+      vertical-align: middle;
+      margin: 0 auto;
+      background-color:rgba(0, 0, 0, 0.71);
+      padding: 15px 0px;
+      display:none;
+      color:grey;
+      h1 {
+
+        letter-spacing: 4px;
+        font-size: 9rem;
+      }
+    }
+
+    h5 {
+      font-size: 20px;
+
+    }
+}
+
+.triangle {
+  background-color:#1DACFC;
+
+  height: 10px;
+    transform: skew(-10deg) rotate(-2deg);
+    -webkit-transform: skew(-10deg) rotate(10deg);
+    -moz-transform: skew(-10deg) rotate(2deg);
+}
+
+
+.triangle2 {
+  background-color:#A926FB;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #A926FB, 0 0 30px #A926FB, 0 0 40px #A926FB, 0 0 55px #A926FB, 0 0 75px #A926FB;
+  height: 10px;
+    transform: skew(-10deg) rotate(-2deg);
+    -webkit-transform: skew(-10deg) rotate(170deg);
+    -moz-transform: skew(-10deg) rotate(2deg);
+}
+
+.triangle3 {
+  background-color:#FC1BA9;
+
+  height: 10px;
+    transform: skew(-10deg) rotate(-2deg);
+    -webkit-transform: skew(-10deg) rotate(-00deg);
+    -moz-transform: skew(-10deg) rotate(2deg);
+}
+
+.triangle4 {
+  background-color:#ACFD32;
+
+  height: 10px;
+    transform: skew(-10deg) rotate(-2deg);
+    -webkit-transform: skew(-10deg) rotate(-20deg);
+    -moz-transform: skew(-10deg) rotate(2deg);
+}
+
+.triangle5 {
+  background-color: #FDA929;
+
+  height: 10px;
+    transform: skew(-10deg) rotate(-2deg);
+    -webkit-transform: skew(-10deg) rotate(10deg);
+    -moz-transform: skew(-10deg) rotate(2deg);
+}
+
+
+.triangle6 {
+  background-color:#1DACFC;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #1DACFC, 0 0 30px #1DACFC, 0 0 40px #1DACFC, 0 0 55px #1DACFC, 0 0 75px #1DACFC;
+  height: 10px;
+    transform: skew(-10deg) rotate(-2deg);
+    -webkit-transform: skew(-10deg) rotate(170deg);
+    -moz-transform: skew(-10deg) rotate(2deg);
+}
+
+
+
+
+
+#photoofme {
+  height:250px;
+  width:250px;
+  border-radius: 10px;
+  border: 5px solid #FDA929;
+  display: block;
+ margin: 0 auto;
+
+}
+
+.supporting {
+  background-color:rgba(0, 0, 0, 0.91);
+  padding-left:1;
+  padding-top:50px;
+  padding-bottom:50px;
+  margin-top:100px;
+  margin-bottom:100px;
+  .aboutmewrapper {
+     img {
+
+    }
+    p {
+      font-size: 19px;;
+      color:rgba(145, 145, 145, 1);
+      line-height: 30px;
+    }
+    h1 {
+        color:rgba(255, 255, 255, 0.30);
+    }
+     height:200px;
+  }
+}
+
+.experience {
+
+  margin-top: 200px;
+
+
+  .charcoal {
+    background-color:rgba(0, 0, 0, 0.90);
+    border:none;
+  }
+  h3, h5, h6, p {
+    color:rgba(145, 145, 145, 1);
+  }
+  h3 {
+    font-size:26px;
+  }
+  h5 {
+    font-size:24px;
+  }
+  h6{
+    font-size:21px;
+  }
+  p {
+    font-size:16px;
+  }
+}
+
+
+.workingskills {
+  background-color:rgba(0, 0, 0, 0.81);
+  margin-top:100px;
+    margin-bottom:100px;
+  padding:20px;
+  padding-bottom:50px;
+
+
+  h1 {
+    text-align: center;
+    color:rgba(255, 255, 255, 0.05);
+    font-weight:lighter;
+    letter-spacing: 2px;
+
+  }
+
+
+    .neon p {
+      text-align:center;
+      color: #fff;
+      font-size:50px;
+
+    }
+    .neon   {
+       #one {
+         display:none;
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+      }
+      #two {
+        display:none;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #1DACFC, 0 0 30px #1DACFC, 0 0 40px #1DACFC, 0 0 55px #1DACFC, 0 0 75px #1DACFC;
+      }
+      #three {
+        display:none;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ACFD32, 0 0 30px #ACFD32, 0 0 40px #ACFD32, 0 0 55px #ACFD32, 0 0 75px #ACFD32;
+      }
+      #four {
+        display:none;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #A926FB, 0 0 30px #A926FB, 0 0 40px #A926FB, 0 0 55px #A926FB, 0 0 75px #A926FB;
+      }
+      #five {
+        display:none;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FDA929, 0 0 30px #FDA929, 0 0 40px #FDA929, 0 0 55px #FDA929, 0 0 75px #FDA929;
+      }
+      #six {
+        display:none;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+      }
+      #seven {
+        display:none;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #1DACFC, 0 0 30px #1DACFC, 0 0 40px #1DACFC, 0 0 55px #1DACFC, 0 0 75px #1DACFC;
+      }
+      #eight {
+        display:none;
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ACFD32, 0 0 30px #ACFD32, 0 0 40px #ACFD32, 0 0 55px #ACFD32, 0 0 75px #ACFD32;
+      }
+      #nine {
+        display:none;
+          text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #FDA929, 0 0 30px #FDA929, 0 0 40px #FDA929, 0 0 55px #FDA929, 0 0 75px #FDA929;
+      }
+    }
+}
+
+#split {
+  h1 {
+    color:white;
+    font-size:200px;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+    font-weight:lighter;
+    text-align: center;
+
+  }
+}
+
+.projects {
+  background-color:rgba(0, 0, 0, 0.71);
+  margin-top:100px;
+    margin-bottom:100px;
+  padding:10px;
+  padding-bottom:30px;
+  h1{
+
+      text-align: center;
+      color:rgba(255, 255, 255, 0.05);
+      font-weight:lighter;
+      letter-spacing: 2px;
+
+
+  }
+  img {
+    height:210px;
+    width:210px;
+
+  }
+  .project-block {
+    height:260px;
+    width:260px;
+    display:block;
+    margin: 0 auto;
+    text-align:center;
+    opacity:0.3;
+    text-decoration:none;
+    p{
+      color:white;
+      font-weight:bold;
+      font-size:40px;
+    }
+    &:hover {
+        opacity:1.0;
+      p {
+
+
+
+      }
+    }
+
+  }
+
+  #sightcast {
+    padding-top:115px;
+
+  }
+  #portfolio1 {
+
+
+  }
+
+  #blogger1 {
+    padding-top:115px;
+
+  }
+
+  #mykitchen {
+    background-image: url("CHEF.png")no-repeat center center fixed;
+
+    background-size:cover;
+  }
+
+  #github {
+
+  }
+}
+
+.foot {
+  padding:20px;
+  background-color: black;
+  width:100%;
+  margin-top: 150px;
+  h1,h3 {
+    text-align:center;
+  }
+
+}

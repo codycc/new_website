@@ -352,6 +352,11 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  body {
+
+      
+    background-attachment:fixed;
+  }
   .aboutmewrapper h1 {
     margin-top:20px;
   }

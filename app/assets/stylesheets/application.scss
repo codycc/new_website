@@ -47,14 +47,15 @@ body {
       text-align: center;
       vertical-align: middle;
       margin: 0 auto;
-      background-color:rgba(0, 0, 0, 0.71);
+      // background-color:rgba(0, 0, 0, 0.71);
       padding: 15px 0px;
       display:none;
       color:grey;
       h1 {
 
-        letter-spacing: 4px;
+        letter-spacing: 9px;
         font-size: 9rem;
+        font-weight:lighter;
       }
     }
 
@@ -191,7 +192,12 @@ body {
 
 
 .workingskills {
-  background-color:rgba(0, 0, 0, 0.81);
+  // background-color:rgba(0, 0, 0, 0.81);
+  background:linear-gradient(
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.8)
+      ),image-url("brickwall-min.jpg")no-repeat center center;
+
   margin-top:70px;
     margin-bottom:100px;
   padding:20px;
@@ -354,7 +360,7 @@ body {
 @media screen and (max-width: 800px) {
   body {
 
-      
+
     background-attachment:fixed;
   }
   .aboutmewrapper h1 {

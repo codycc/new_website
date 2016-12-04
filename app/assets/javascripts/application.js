@@ -18,8 +18,19 @@
 $( document ).ready(function() {
 
 $('.wrapper').fadeIn(3000);
-$('.wrapper h1').fadeIn(1000);
-$('.wrapper h5').fadeIn(2000);
+// $('.wrapper h1').fadeIn(1000);
+
+$('#l1').fadeIn(1000);
+$('#l2').fadeIn(1200);
+$('#l3').fadeIn(1400);
+$('#l4').fadeIn(1600);
+$('#l5').fadeIn(1800);
+$('#l6').fadeIn(2000);
+$('#l7').fadeIn(2200);
+$('#l8').fadeIn(2400);
+$('#l9').fadeIn(2600);
+$('#l10').fadeIn(2800);
+
 
 $('.triangle2').fadeIn(50);
 $('.triangle2').fadeOut(50);

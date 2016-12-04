@@ -18,7 +18,7 @@
 $( document ).ready(function() {
 
 $('.wrapper').fadeIn(3000);
-// $('.wrapper h1').fadeIn(1000);
+$('.wrapper h1').fadeIn(1000);
 
 $('#l1').fadeIn(1000);
 $('#l2').fadeIn(1200);

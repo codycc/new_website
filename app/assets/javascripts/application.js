@@ -47,7 +47,7 @@ $('.triangle2').fadeIn(1000);
 
     $(window).on('scroll', function() {
         var y_scroll_pos = window.pageYOffset;
-        var scroll_pos_test = 1360;             // set to whatever you want it to be
+        var scroll_pos_test = 1450;             // set to whatever you want it to be
         var scroll_pos_wrapper = 300;
         var scroll_pos_experience = 1000;
         if(y_scroll_pos > scroll_pos_test && $triggered_times == 0 ) {
